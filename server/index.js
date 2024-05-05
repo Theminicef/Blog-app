@@ -18,7 +18,7 @@ app.use(cors({
     credentials: true
 }));
 
-mongoose.connect('mongodb+srv://oluaese:RAniuVYubnTS164a@backenddb.t7anvbe.mongodb.net/Blog?retryWrites=true&w=majority&appName=BackendDB', {
+mongoose.connect('mongodb+srv://oluaese:@backenddb.t7anvbe.mongodb.net/Blog?retryWrites=true&w=majority&appName=BackendDB', {
 
 })
 .then(() => {
